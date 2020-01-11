@@ -1,0 +1,7 @@
+To reset trial just use:
+cd ~/.PhpStorm2018.3
+rm config/eval/PhpStorm183.evaluation.key
+sed -i '/evlsprt/d' config/options/other.xml
+cd ~/.java/.userPrefs/jetbrains
+rm -rf phpstorm
+But you need to write correct PhpStorm version.
