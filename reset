@@ -35,9 +35,15 @@ rm -rf ~/.java/.userPrefs/jetbrains/webstorm
 
 PhpStorm --- LOVE ---
 
+************************* 2020.1 ********************************************************
 #rm -rf ~/.java/.userPrefs/prefs.xml
 #rm -rf ~/.java/.userPrefs/jetbrains/prefs.xml
-
 rm -rf ~/.config/JetBrains/PhpStorm2020.1/eval
 sed -i -E 's/<property name=\"evl.*\".*\/>//' ~/.config/JetBrains/PhpStorm*/options/other.xml
 rm -rf ~/.java/.userPrefs/jetbrains/phpstorm
+
+************************* 2020.2 ********************************************************
+rm -rf ~/.config/JetBrains/PhpStorm2020.1/eval
+sed -i -E 's/<property name=\"evl.*\".*\/>//' ~/.config/JetBrains/PhpStorm*/options/other.xml
+rm -rf ~/.java/.userPrefs/jetbrains/phpstorm
+
