@@ -43,7 +43,7 @@ sed -i -E 's/<property name=\"evl.*\".*\/>//' ~/.config/JetBrains/PhpStorm*/opti
 rm -rf ~/.java/.userPrefs/jetbrains/phpstorm
 
 ************************* 2020.2 ********************************************************
-rm -rf ~/.config/JetBrains/PhpStorm2020.1/eval
+rm -rf ~/.config/JetBrains/PhpStorm2020.2/eval
 sed -i -E 's/<property name=\"evl.*\".*\/>//' ~/.config/JetBrains/PhpStorm*/options/other.xml
 rm -rf ~/.java/.userPrefs/jetbrains/phpstorm
 
