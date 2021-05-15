@@ -6,7 +6,12 @@ rm config/eval/PhpStorm183.evaluation.key
 sed -i '/evlsprt/d' config/options/other.xml
 cd ~/.java/.userPrefs/jetbrains
 rm -rf phpstorm
-
+************************* PhpStorm2019.1 *********************************************
+#rm -rf ~/.java/.userPrefs/prefs.xml
+#rm -rf ~/.java/.userPrefs/jetbrains/prefs.xml
+rm -rf ~/.config/JetBrains/PhpStorm2019.1/eval
+sed -i -E 's/<property name=\"evl.*\".*\/>//' ~/.config/JetBrains/PhpStorm*/options/other.xml
+rm -rf ~/.java/.userPrefs/jetbrains/phpstorm
 
 ************************* PhpStorm2020.1 *********************************************
 #rm -rf ~/.java/.userPrefs/prefs.xml
@@ -15,16 +20,17 @@ rm -rf ~/.config/JetBrains/PhpStorm2020.1/eval
 sed -i -E 's/<property name=\"evl.*\".*\/>//' ~/.config/JetBrains/PhpStorm*/options/other.xml
 rm -rf ~/.java/.userPrefs/jetbrains/phpstorm
 
-
 ************************* PhpStorm2020.2 *********************************************
 rm -rf ~/.config/JetBrains/PhpStorm2020.2/eval
 sed -i -E 's/<property name=\"evl.*\".*\/>//' ~/.config/JetBrains/PhpStorm*/options/other.xml
 rm -rf ~/.java/.userPrefs/jetbrains/phpstorm
-
 
 ************************* PhpStorm2020.3 *********************************************
 rm -rf ~/.config/JetBrains/PhpStorm2020.3/eval
 sed -i -E 's/<property name=\"evl.*\".*\/>//' ~/.config/JetBrains/PhpStorm*/options/other.xml
 rm -rf ~/.java/.userPrefs/jetbrains/phpstorm
 
-
+************************* PhpStorm2021.1 *********************************************
+rm -rf ~/.config/JetBrains/PhpStorm2021.1/eval
+sed -i -E 's/<property name=\"evl.*\".*\/>//' ~/.config/JetBrains/PhpStorm*/options/other.xml
+rm -rf ~/.java/.userPrefs/jetbrains/phpstorm
